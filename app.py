@@ -33,7 +33,7 @@ def read_csv_page(page_size, page_number):
 
     paginated_data = data[start_index:end_index]
 
-    last_page_data = paginated_data  # Atualiza os dados da última página
+    last_page_data = paginated_data
 
     return paginated_data
 
